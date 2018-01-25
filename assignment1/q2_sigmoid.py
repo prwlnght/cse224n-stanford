@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 def sigmoid(x):
@@ -52,6 +53,11 @@ def test_sigmoid_basic():
     x = np.array([[1, 2], [-1, -2]])
     f = sigmoid(x)
     g = sigmoid_grad(f)
+
+    m = np.array([0, .1, .5, .6, .4, .3, .5])
+    plt.plot(m)
+    plt.plot(sigmoid(m))
+    plt.show()
     print f
     f_ans = np.array([
         [0.73105858, 0.88079708],
