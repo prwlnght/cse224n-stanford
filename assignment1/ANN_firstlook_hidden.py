@@ -34,15 +34,19 @@ nRepats = 30;
 data = np.matlib.repmat(data, nRepats, 1)
 classes = np.matlib.repmat(classes, nRepats, 1)
 data = data + .15*np.random.rand(data.shape[0], data.shape[1])
-#data, classes = unison_shuffled_copies(data, classes)
+data, classes = unison_shuffled_copies(data, classes)
 [n_obs, n_features] = [data.shape[0], data.shape[1]]
 n_output = 1
-l_rate = .05
-n_iterations = 1000 #dont quite understand this
+l_rate = .5
+n_iterations = 100
+
+n_hidden = 3
 
 #initializing random weights
-w_layer_1 = np.random.random([1,2])
+w_layer_1 = np.random.random([n_output,n_hidden])
 b_layer_1 = np.random.random(1)
+w_hid = np.random.random([n_hidden, n_features])
+b_hid = np.random.random([n_hidden])
 
 #initiazatlions for visualizations (todo for later)
 
@@ -60,19 +64,29 @@ for j in range(n_iterations):
 
 
         #1.FORWARD PROPAGATE
-        z_out = w_layer_1.dot(input) + b_layer_1
+        z_hid = w_hid.dot(input) + b_hid
+        a_hid = sigmoid(z_hid)
+        z_out = w_layer_1.dot(a_hid) + b_layer_1
         a_out = sigmoid(z_out)
 
         #BACKWARD PROPAGATE
         #Calculate error derivative wrt. output
         delta_out = sigmoid_grad(a_out).dot(a_out-target)
+        delta_hid = sigmoid_grad(a_hid)*np.sum(delta_out*w_layer_1)
 
-        delta_out_w = delta_out*input
+
+        #calculate gradeitn wrt parameters
+        delta_out_w = delta_out*a_hid
         delta_out_b = delta_out
+        delta_out_hid_w = np.outer(delta_hid, input)
+        delta_out_hid_b = delta_hid*1
 
         #update parameters
         w_layer_1 = w_layer_1 - l_rate*delta_out_w
         b_layer_1 = b_layer_1 - l_rate*delta_out_b
+
+        w_hid = w_hid - l_rate*delta_out_hid_w
+        b_hid = b_hid - l_rate*delta_out_hid_b
 
         #calculate error function
         err[i] = .5*((a_out- target)**2)

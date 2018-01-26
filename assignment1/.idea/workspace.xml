@@ -28,22 +28,10 @@
       <file leaf-file-name="q2_sigmoid.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/q2_sigmoid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="285">
+              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="e#23#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ANN_firstlook.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ANN_firstlook.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +40,8 @@
       <file leaf-file-name="q2_gradcheck.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/q2_gradcheck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="37" column="63" lean-forward="false" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+            <state relative-caret-position="-135">
+              <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
               <folding>
                 <element signature="e#23#41#0" expanded="true" />
               </folding>
@@ -61,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="q2_neural.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="q2_neural.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/q2_neural.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+            <state relative-caret-position="371">
+              <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -105,6 +93,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>plt</find>
+      <find>g</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -112,10 +101,11 @@
       <list>
         <option value="$PROJECT_DIR$/q1_softmax.py" />
         <option value="$PROJECT_DIR$/lectures/2.py" />
-        <option value="$PROJECT_DIR$/q2_gradcheck.py" />
-        <option value="$PROJECT_DIR$/q2_neural.py" />
         <option value="$PROJECT_DIR$/q2_sigmoid.py" />
         <option value="$PROJECT_DIR$/ANN_firstlook.py" />
+        <option value="$PROJECT_DIR$/ANN_firstlook_hidden.py" />
+        <option value="$PROJECT_DIR$/q2_gradcheck.py" />
+        <option value="$PROJECT_DIR$/q2_neural.py" />
       </list>
     </option>
   </component>
@@ -139,7 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,30 +144,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.ANN_firstlook">
-    <configuration default="false" name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lectures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="assignment1" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lectures/2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.q2_neural">
     <configuration default="false" name="q2_sigmoid" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,6 +220,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="assignment1" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANN_firstlook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ANN_firstlook_hidden" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="assignment1" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANN_firstlook_hidden.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -381,19 +376,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.q2_sigmoid" />
-      <item index="2" class="java.lang.String" itemvalue="Python.q2_gradcheck" />
-      <item index="3" class="java.lang.String" itemvalue="Python.q2_neural" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ANN_firstlook" />
+      <item index="0" class="java.lang.String" itemvalue="Python.q2_sigmoid" />
+      <item index="1" class="java.lang.String" itemvalue="Python.q2_gradcheck" />
+      <item index="2" class="java.lang.String" itemvalue="Python.q2_neural" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ANN_firstlook" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ANN_firstlook_hidden" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ANN_firstlook" />
-        <item index="1" class="java.lang.String" itemvalue="Python.q2_sigmoid" />
-        <item index="2" class="java.lang.String" itemvalue="Python.q2_neural" />
-        <item index="3" class="java.lang.String" itemvalue="Python.q2_gradcheck" />
-        <item index="4" class="java.lang.String" itemvalue="Python.2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.q2_neural" />
+        <item index="1" class="java.lang.String" itemvalue="Python.q2_gradcheck" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ANN_firstlook_hidden" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ANN_firstlook" />
+        <item index="4" class="java.lang.String" itemvalue="Python.q2_sigmoid" />
       </list>
     </recent_temporary>
   </component>
@@ -411,15 +406,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1173" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1348078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13375461" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45143387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3774283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -440,15 +435,27 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/q2_neural.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/ANN_firstlook.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ANN_firstlook_hidden.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="19" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -461,18 +468,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q1_softmax.py">
+    <entry file="file://$PROJECT_DIR$/q2_sigmoid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q1_softmax.py">
+    <entry file="file://$PROJECT_DIR$/ANN_firstlook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="1035">
+          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANN_firstlook_hidden.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -484,6 +503,14 @@
           <folding>
             <element signature="e#23#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q2_neural.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="64" column="28" lean-forward="false" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -505,10 +532,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/q1_softmax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/q2_sigmoid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="330">
           <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANN_firstlook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q2_gradcheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="37" column="63" lean-forward="false" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
           <folding>
             <element signature="e#23#41#0" expanded="true" />
           </folding>
@@ -517,19 +572,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/q2_neural.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="885">
           <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q3_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q1_softmax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q1_softmax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lectures/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q3_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q1_softmax.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANN_firstlook_hidden.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ANN_firstlook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="276">
+          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q2_sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q2_gradcheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="36" column="64" lean-forward="true" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q2_neural.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

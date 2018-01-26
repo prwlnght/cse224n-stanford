@@ -8,7 +8,7 @@ from q2_sigmoid import sigmoid, sigmoid_grad
 from q2_gradcheck import gradcheck_naive
 
 
-def forward_backward_prop(X, labels, params, dimensions):
+def forward_backward_prop(data, labels, params, dimensions):
     """
     Forward and backward propagation for a two-layer sigmoidal network
 
@@ -38,14 +38,24 @@ def forward_backward_prop(X, labels, params, dimensions):
     ofs += H * Dy
     b2 = np.reshape(params[ofs:ofs + Dy], (1, Dy))
 
-    # Note: compute cost based on `sum` not `mean`.
     ### YOUR CODE HERE: forward propagation
-    raise NotImplementedError
+
+    h = sigmoid(np.dot(data, W1) + b1)
+    pred = sigmoid(np.dot(h, W2) + b2)
+    cost = (-1) * np.sum(labels * np.log(pred) + (1 - labels) * np.log(1 - pred))
+
     ### END YOUR CODE
 
+
     ### YOUR CODE HERE: backward propagation
-    raise NotImplementedError
-    ### END YOUR CODE
+
+    dout = pred - labels
+    dh = np.dot(dout, W2.T) * sigmoid_grad(h)
+
+    gradW2 = np.dot(h.T, dout)
+    gradb2 = np.sum(dout, 0)
+    gradW1 = np.dot(data.T, dh)
+    gradb1 = np.sum(dh, 0)
 
     ### Stack gradients (do not modify)
     grad = np.concatenate((gradW1.flatten(), gradb1.flatten(),
@@ -71,8 +81,14 @@ def sanity_check():
     params = np.random.randn((dimensions[0] + 1) * dimensions[1] + (
         dimensions[1] + 1) * dimensions[2], )
 
-    gradcheck_naive(lambda params:
-        forward_backward_prop(data, labels, params, dimensions), params)
+    def dummy(x):
+        return forward_backward_prop(data, labels, params, dimensions)
+
+    gradcheck_naive(dummy, params)
+
+
+    #gradcheck_naive(lambda params:
+    #forward_backward_prop(data, labels, params, dimensions), params)
 
 
 def your_sanity_checks():
